@@ -11,7 +11,7 @@ const getSum = () => {
 			sum+= parseInt(prices[i].innerText);
 		}
 	let tr = document.createElement("tr");
-	tr.innerHTML = `<td>total price</td><td>${sum}</td>`
+	tr.innerHTML = `<td>${sum}</td>`
 	let table = document.getElementsByTagName("table")[0];
 	table.appendChild(tr);
 };
